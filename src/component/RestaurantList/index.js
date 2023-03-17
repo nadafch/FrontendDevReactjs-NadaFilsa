@@ -29,7 +29,9 @@ export default function RestaurantList(props) {
           </Grid>
         ))
       ) : (
-        <CircularProgress />
+        <Grid marginTop={10}>
+          <CircularProgress />
+        </Grid>
       )}
       <ModalDetail
         open={openModal}
