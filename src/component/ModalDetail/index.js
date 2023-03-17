@@ -30,7 +30,9 @@ export default function ModalDetail(props) {
   const [targetUrl, setTargetUrl] = useState("");
 
   useEffect(() => {
-    setTargetUrl(`${data.id}/reviews?limit=20&sort_by=yelp_sort`);
+    setTargetUrl(
+      `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/${data.id}/reviews?limit=20&sort_by=yelp_sort`
+    );
   }, [data.id]);
 
   var requestOptions = {

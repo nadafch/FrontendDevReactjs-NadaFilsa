@@ -10,7 +10,8 @@ function App() {
   const [isOpen, setisOpen] = useState(false);
   const [payload, setPayload] = useState({});
 
-  var targetUrl = "/search?location=Houston";
+  var targetUrl =
+    "https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?location=Houston";
   var requestOptions = {
     method: "GET",
     headers: {
