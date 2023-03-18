@@ -2,7 +2,7 @@ Node v18.12.1
 
 React version ^18.2.0
 
-Jika ingin menjalankan pada localhost disaranakan untuk mengunjungi https://cors-anywhere.herokuapp.com/corsdemo --> request temporary acess for demo, Karena API mengalami CORS. Atau bisa menjalankan pada branch development yang tidak perlu menggunakan langkah sebelumnya karena sudah di setting proxy 
+Jika ingin menjalankan disaranakan untuk mengunjungi https://cors-anywhere.herokuapp.com/corsdemo --> request temporary acess for demo, Karena API mengalami CORS. Atau bisa menjalankan pada branch development yang tidak perlu menggunakan langkah sebelumnya karena sudah di setting proxy 
 
 # Getting Started with Create React App
 
