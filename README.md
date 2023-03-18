@@ -2,9 +2,7 @@ Node v18.12.1
 
 React version ^18.2.0
 
-Karena API terkena CORS aplikasi hanya bisa digunakan pada development (sudah disetting untuk proxynya). Di production fetc data tidak berhasil
-
-# Getting Started with Create React App
+Karena API terkena CORS aplikasi hanya bisa digunakan pada development (sudah disetting untuk proxynya).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
